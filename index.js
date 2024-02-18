@@ -1,4 +1,4 @@
-var numb = 1;
+var numb = 0;
 var num = document.getElementById('number');
 num.innerHTML=numb;
 
@@ -14,8 +14,10 @@ function inc() {
    
 function dec() {
     numb--;
+    if (numb<0){
+        numb=0;
+    }
     num.innerHTML=numb;
-    
 }
    
 function reset() {
@@ -26,7 +28,7 @@ function reset() {
 function write() {
     numb = +prompt("Write Number");
     num.innerHTML=numb;
-    numb=0;
+    
 }
 
 
