@@ -12,14 +12,25 @@
     position: absolute;
     width: 100px; 
     height:50px; 
-     top:0%; 
+     top:3%; 
      left:41.3%;
     color: red; 
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:'Times New Roman', Times, serif;
     font-weight: 400px; 
     font-size: 120px;
     /* background-color: aliceblue; */
       z-index: 11;
+}
+
+#note{
+    color: red;
+    font-size: 20px;
+    font-weight: 100px;
+
+    position: absolute;
+    left:41.3%;
+    top:3%;
+
 }
 
 #butn1{
